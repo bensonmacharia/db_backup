@@ -14,6 +14,7 @@ $ cd db_backup
 $ chmod +x mysql_db_backup_script.sh
 # grant execution permissions. PostgreSQL script
 $ chmod +x psql_db_backup_script.sh
+# Make sure to edit the placeholders for the database credentials and backup directory before running the scripts
 # run the scripts
 $ ./mysql_db_backup_script.sh
 $ ./psql_db_backup_script.sh
